@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
+  nitro: {
+    experimental: {
+      websocket: true
+    },
+  },
   devtools: { enabled: true },
   app: {
     // global transition
@@ -23,7 +28,7 @@ export default defineNuxtConfig({
     '@nuxtjs/device',
     "@nuxtjs/sitemap",
     "nuxt-simple-robots",
-    '@nuxtjs/supabase'
+    // '@nuxtjs/supabase'
   ],
 
   // module::headlessui
