@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div>
-    <WebSocket />
+    <h1>hello world?</h1>
+    <!-- <WebSocket /> -->
   </div>
 </template>
